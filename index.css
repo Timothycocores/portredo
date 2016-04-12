@@ -1,0 +1,63 @@
+body{
+	margin: none; 
+
+}
+
+a {
+	color: white;
+  
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: -4px;
+	float: right;
+	padding-right: 30px;
+  }
+
+  .navbar, .navbar-default {
+	border-width: 0px;
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	color: black;
+ }
+
+ #banner{
+ 	background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3f9c78df0edb464244bbabb04d1797d8);
+ 	background-size: 100%;
+ 	width: 100%;
+ background-repeat: no-repeat;
+ 	height: 800px;
+ }
+
+ .about{
+ 	color: white;
+ 	text-align: center;
+
+ }
+
+ .skills{
+ 	color: white;
+ 	text-align: center;
+ }
+
+ .right{
+ 	margin-right: 100px;
+ 	margin-bottom: 60px;
+ 	margin-top: -40px;
+ }
+
+ .left{
+ 	margin-left: 100px;
+ 	margin-bottom: 60px;
+ 	margin-top: -40px;
+ }
+
+ footer{
+ 	height: 100px;
+ 	background-color: black;
+ }
+ .row{
+ 	
+ }
