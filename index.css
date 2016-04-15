@@ -3,6 +3,7 @@ body{
 
 }
 
+
 a {
 	color: white;
   
@@ -16,28 +17,56 @@ li {
 	padding-right: 30px;
   }
 
+
+
   .navbar, .navbar-default {
 	border-width: 0px;
 	background-color: #FFFFFF;
-	margin-top: 20px;
 	color: black;
  }
 
+ .nav, .navbar-nav{
+ 	margin-left: 600px;
+ }
+
  #banner{
- 	background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3f9c78df0edb464244bbabb04d1797d8);
+ 	background-image: url(https://images.unsplash.com/photo-1428353247902-27314a5b4a72?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=fb098cd37ab97c99bfc3b352720008f1);
  	background-size: 100%;
  	width: 100%;
+ 	margin-top: .5%;
  background-repeat: no-repeat;
  	height: 800px;
- }
+ 	}
 
  .about{
  	color: white;
  	text-align: center;
+ 	vertical-align: middle;
+ 	margin-top: 30px;
 
  }
 
+
  .skills{
+ 	color: white;
+ 	text-align: center;
+ }
+
+ .work{
+ 	color: white;
+ 	text-align: center;
+ }
+
+ .contact{
+ 	color: white;
+ }
+
+ .skillsBlurb{
+ 	text-align: center;
+ 	float: right;
+ }
+
+ .contact{
  	color: white;
  	text-align: center;
  }
@@ -53,11 +82,25 @@ li {
  	margin-bottom: 60px;
  	margin-top: -40px;
  }
-
+/*
  footer{
  	height: 100px;
  	background-color: black;
+ 	border-color: white;
+ 	border: 1px;
+ 	border-style: solid;
  }
- .row{
- 	
+
+ */
+
+ .banner{
+ 	height: 300px;
  }
+.col-sm-6{
+	height: 300px;
+	margin-top: -30px;
+}
+.col-sm-12{
+	height: 300px;
+	text-align: center;
+}

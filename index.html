@@ -9,27 +9,57 @@
 </head>
 <body>
 <div class="container-fluid" id="wrapper">
-  <nav class="navbar navbar-default">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-        <a class="navbar-brand" href="#">Timothy Cocores</a></div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="defaultNavbar1">
-<ul class="nav navbar-nav navbar-right">
-  <li><a href="#panelOne">ABOUT</a></li>
-  <li><a href="resume.pdf">Resume</a></li>
-  <li><a href="#connect">Contact</a></li>
-</ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
+  <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Timothy Cocores</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skills">Skills </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#work">Work</a>
+                    </li>
+                    <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
     <!-- /.container-fluid -->
   </nav>
   <div id="banner">
   </div>
+
   <div class="row">
   <div class="about">
+  <body id="about" data-spy="scroll" data-target=".navbar-fixed-top">
+
     <div class="col-sm-6" style="background-color:black;">
     <h1>ABOUT</h1>
     </div>
@@ -37,39 +67,52 @@
     <div class="col-sm-6" style="background-color:white;">
      <h3>Hello! My Name is Timothy Michael Cocores</h3>
     <h3>I am a Front End Designer from Portland, Oregon.</h3>
-    <h3>I create websites using a simplistic minimal design, while writing clean code. I live my life by the motto cleaner is better.</h3></div>
+    <h3>I create websites using a simplistic, modern, minimalmist design, while writing clean code. I live my life by the motto cleaner is better.</h3></div>
     </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-sm-6" style="background-color:white;">
-    <br>
-    <div class="row">
-    	<div class="col-sm-6">
-    	<div class="left">
-    	<p>HTML</p>
-    	<p>CSS</p>
-    	<p>Javascript</p>
-    	</div>
-    	</div>
-    	<div class="col-sm-6">
-    	<div class="right">
-    	<p>HTML</p>
-    	<p>CSS</p>
-    	<p>Javascript</p>
-    	</div>
-    	</div>
-    	</div>
-    </div>
 
-    <div class="col-sm-6" style="background-color:black;">
+<div class="row">
+
+  <div class="col-sm-6" style="background-color:black;">
     <div class="skills">
     <h1>SKILLS</h1>
     </div>
     </div>
     </div>
+     <div class="row">
+     <div class="col-sm-6" style="background-color:white;">
+  <div class="skillsBlurb">
+  <p>For coding Timothy knows HTML, CSS, Javascript, Jquery, and Bootstrap.</p>
+  </div>
+  </div>
+
+    <div class="col-sm-6" style="background-color:black;">
+    <div class="work">
+    <h1>WORK</h1>
+    </div>
+    </div>
+    </div>
+
+    <div class="col-sm-6" style="background-color:white;">
+    
+    </div>
+    </div>
+    </div>
+</div>
+    </div>
+    <div class="row">
+        <div class="contact">
+    <div class="col-sm-6" style="background-color:black;">
+    <h1>CONTACT</h1>
+    </div>
+    </div>
+    </div>
+<!--
     <footer>
     	
     </footer>
+
+    -->
 </body>
 </html>
