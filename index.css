@@ -29,14 +29,16 @@ li {
  	margin-left: 600px;
  }
 
+ 
  #banner{
- 	background-image: url(https://images.unsplash.com/photo-1428353247902-27314a5b4a72?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=fb098cd37ab97c99bfc3b352720008f1);
+ 	background-image: url(http://wallpapercave.com/wp/pEeUsp1.jpg);
  	background-size: 100%;
  	width: 100%;
  	margin-top: .5%;
  background-repeat: no-repeat;
  	height: 800px;
  	}
+ 	
 
  .about{
  	color: white;
@@ -46,15 +48,33 @@ li {
 
  }
 
+ .aboutBlurb{
+ 	margin-top: 50%;
+ 	text-align: center;
+ }
+
 
  .skills{
  	color: white;
  	text-align: center;
  }
 
+ .skillsBlurb{
+ 	margin-top: 50%;
+ 	margin-left: 60px;
+ 	margin-right: 60px;
+ 	line-height: 5px;
+ 	overflow-y: scroll;
+ }
+
  .work{
- 	color: white;
+ 	color: black;
  	text-align: center;
+ 	font-family: 'Nunito', sans-serif;
+ 	margin-top: 50%;
+ 	height: 800px;
+ 	overflow-y: auto;
+
  }
 
  .contact{
@@ -68,6 +88,7 @@ li {
 
  .contact{
  	color: white;
+ 	font-family: 'Nunito', sans-serif;
  	text-align: center;
  }
 
@@ -92,15 +113,40 @@ li {
  }
 
  */
-
- .banner{
+/*
+ #banner{
  	height: 300px;
+ 	background-color: #;
+ 	margin-top: 70p;
+ 	margin-bottom: -40px;
  }
+ */
 .col-sm-6{
-	height: 300px;
+	height: 800px;
 	margin-top: -30px;
 }
 .col-sm-12{
 	height: 300px;
 	text-align: center;
+}
+
+.lex{
+	text-align: center;
+}
+
+.lexBlurb{
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 30px;
+}
+
+.skills{
+	text-align: center;
+	color: white;
+	margin-top: 50%;
+}
+
+.scrollable {
+    height: 800px; /* or any value */
+    overflow-y: auto;
 }
