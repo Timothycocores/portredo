@@ -1,5 +1,5 @@
 body{
-	margin: none; 
+	
 
 }
 
@@ -21,7 +21,7 @@ li {
 
   .navbar, .navbar-default {
 	border-width: 0px;
-	background-color: #FFFFFF;
+	background-color: white;
 	color: black;
  }
 
@@ -31,7 +31,6 @@ li {
 
  
  #banner{
- 	background-image: url(http://wallpapercave.com/wp/pEeUsp1.jpg);
  	background-size: 100%;
  	width: 100%;
  	margin-top: .5%;
@@ -39,6 +38,9 @@ li {
  	height: 800px;
  	}
  	
+ 	#rocket{
+ 		padding-top: 100px;
+ 	}
 
  .about{
  	color: white;
@@ -61,10 +63,9 @@ li {
 
  .skillsBlurb{
  	margin-top: 50%;
- 	margin-left: 60px;
- 	margin-right: 60px;
- 	line-height: 5px;
- 	overflow-y: scroll;
+ 	width: 100%;
+	padding-right: 10px;
+	text-align:center;
  }
 
  .work{
@@ -103,16 +104,8 @@ li {
  	margin-bottom: 60px;
  	margin-top: -40px;
  }
-/*
- footer{
- 	height: 100px;
- 	background-color: black;
- 	border-color: white;
- 	border: 1px;
- 	border-style: solid;
- }
 
- */
+ 
 /*
  #banner{
  	height: 300px;
@@ -150,3 +143,15 @@ li {
     height: 800px; /* or any value */
     overflow-y: auto;
 }
+
+.contactBlurb{
+	text-align: center;
+	margin-top: 35%;
+	color: black;
+}
+
+.footer{
+ 	height: 500px;
+	width: 100%;
+ 	background-color: black;
+ }
